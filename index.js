@@ -30,5 +30,5 @@ app.get('/', (req, res) => {
 });
 
 app.listen(process.env.PORT, () => {
-  console.log(`--> ｡.:*♡ Server is running at ${process.env.PORT}! ♡*:.｡. <--`);
+  console.log(`-> ｡.:*♡ Running at ${process.env.PORT}! ♡*:.｡. <-`);
 });
